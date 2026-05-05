@@ -65,6 +65,11 @@ header {
 	width: 100%;
 }
 
+.interaccion-usuario {
+	display: flex;
+	justify-content: space-around;
+}
+
 .hero-overlay {
 	position: absolute;
 	top: 0px;
