@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
 .caja {
   width: 200px;
   height: 200px;
@@ -74,4 +80,32 @@ header {
   width: 100%;
   height: auto;
   aspect-ratio: 2.5/1;
+}
+
+.destacados {
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+  bottom: 10%;
+  padding: 40px;
+}
+
+.seccion1 {
+  width: 100%;
+  padding: 40px;
+}
+
+.contenedor-servicios {
+  display: flex;
+  gap: 10px;
+}
+
+.columna-servicios {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.servicios-derecha {
+  margin-top: 30px;
 }
